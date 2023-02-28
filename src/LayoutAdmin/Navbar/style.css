@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+.Navbar .menu-item {
+  margin: 10px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(24, 22, 22);
+  font-size: 40px;
+}
+
+.logo:hover {
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  background-color: rgba(228, 149, 149, 0.938)
+}
+
+.nav-link {
+  display: flex;
+}
+
+.nav-link .menu-item {
+  font-size: 1.6rem;
+  font-weight: 300;
+  text-decoration: none;
+  margin-right: 1rem;
+  /* border-radius: 10px; */
+}
+.nav-link #authen1 {
+  /* background-color: transparent; */
+  /* color: var(--danger); */
+  /* border: 3px solid var(--danger); */
+}
+.nav-link #authen2 {
+  /* background-color: transparent; */
+  /* color: var(--danger); */
+  /* border: 3px solid var(--danger); */
+}
+.nav-link .menu-item:hover {
+  color: rgb(225, 29, 29);
+}

@@ -1,0 +1,7 @@
+html {
+  overflow: auto;
+}
+.App {
+  background-image: linear-gradient(to right, rgba(189, 39, 39, 0.938), rgb(188, 73, 73));
+}
+
